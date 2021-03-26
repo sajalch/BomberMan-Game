@@ -1,0 +1,27 @@
+body{
+        text-align: center;
+    }
+    #grid{
+        width: 20rem;		
+        display: inline-block;	
+    }
+    .box{
+        background-color: grey;
+        cursor: pointer;
+        height: 30px;
+        width: 30px;
+        display: inline-block;
+    }
+    .bomb{
+        background-color: red;
+        background-image: url("https://img.icons8.com/emoji/48/000000/bomb-emoji.png");
+        /* height: 30px;
+        width: 30px; */
+        background-size:cover;
+        /* display: inline-block; */
+    }
+    .normal{
+        background-color: green; 
+        cursor: not-allowed;
+
+    }
